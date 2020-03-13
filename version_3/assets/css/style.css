@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(170deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: gray;
+}
+/* Media querry */
+
+@media screen and (max-width: 550px) {
+    h1 {
+        order: 1;
+        border-top: 2px solid rgb(255, 255, 255);
+    }
+
+    figure>img {
+        border-radius: 50%;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+
+    section#ligne1,
+    section#ligne2,
+    section#ligne3 {
+        margin: auto;
+    }
+
+    article {
+        margin-top: 20px;
+    }
+
+}
+
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 82%);
+}
+
+header {
+    background: rgb(19, 19, 19);
+    min-height: 280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px white;
+}
+
+figure>img {
+    border: 3px solid rgb(250, 250, 250);
+}
+
+
+/* Première ligne */
+
+section#ligne1 {
+    width: 90%;
+    min-height: 400px;
+    display: flex;
+    margin-left: auto;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#ligne1>article {
+    width: 50%;
+    min-height: 400px;
+    min-width: 320px;
+    border: 1px solid black;
+    background: rgb(90, 90, 90);
+    color: rgb(240, 240, 240);
+    border-radius: 3%;
+    flex: 1;
+    padding: 20px;
+}
+
+#ligne1>article>ul {
+    padding: 40px;
+    font-size: 20px;
+}
+
+#ligne1>article>ul>li {
+    padding-top: 25px;
+}
+
+#ligne1>article:nth-child(2)>ul>li {
+    padding-top: 40px;
+}
+
+/* Deuxième ligne */
+
+section#ligne2 {
+    width: 90%;
+    min-height: 400px;
+    display: flex;
+    margin-right: auto;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+section#ligne2>article {
+    width: 50%;
+    min-height: 400px;
+    min-width: 320px;
+    border: 1px solid black;
+    background: rgb(143, 143, 143);
+    color: rgb(29, 29, 29);
+    border-radius: 3%;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+section#ligne2>article>ul {
+    font-size: 17px;
+    list-style: none;
+}
+
+section#ligne2>article>h3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+section#ligne2 h2 {
+    padding-bottom: 25px;
+}
+
+/* Troisième ligne */
+
+section#ligne3 {
+    width: 90%;
+    min-height: 400px;
+    display: flex;
+    margin-left: auto;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+section#ligne3>article {
+    width: 90%;
+    min-height: 400px;
+    min-width: 320px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    background: rgb(190, 190, 190);
+    border-radius: 3%;
+    flex: 1;
+}
+
+article>h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+section#ligne3>article {
+    padding: 20px;
+}
+
+section#ligne3>article>h2 {
+    padding-bottom: 80px
+}
+
+section#ligne3>article>ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+section#ligne3>article>ul>li {
+    padding-left: 20px;
+    padding-right: 40px;
+    min-height: 70px;
+}
+
+section#ligne3>article>ul:nth-child(2)>li:nth-child(1) {
+    background-image: url("../images/linkedin_resize.png");
+    background-repeat: no-repeat;
+    padding-left: 35px;
+}
+
+section#ligne3>article>ul:nth-child(2)>li:nth-child(2) {
+    background-image: url("../images/twitter_resize.png");
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+section#ligne3>article>ul:nth-child(2)>li:nth-child(3) {
+    background-image: url("../images/insta_resize.png");
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+section#ligne3>article>ul:nth-child(2) {
+    padding-bottom: 40px
+}
+
+section#ligne3 a {
+    text-decoration: none;
+    color: black;
+}
+
+section#ligne3 p {
+    display: inline;
+    padding-left: 20px;
+}
+
+/* Footer */
+
+footer {
+    background: rgb(202, 202, 202);
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: right;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px black;
+}
+
+footer>a {
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+
+/* Le modal */
+
+#modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(36, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 70%;
+    background: rgb(194, 194, 194);
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    user-select: none;
+    position: relative;
+}
+
+#modal-container:not(:target) {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s, visibility .5s;
+}
+
+#modal-container:target {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s, visibility .5s;
+}
+
+div.modal>a.fermer {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+div.modal>p {
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+div.modal > h2 {
+    padding-bottom: 20px;
+}
+
+/* Bouton modal */
+
+main>a {
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    transition: background-color 1s;
+    border: 1px solid white;
+}
+
+main>a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+

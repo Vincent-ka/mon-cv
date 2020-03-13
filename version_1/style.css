@@ -1,0 +1,153 @@
+/*Page principale */
+body, html {
+	margin: 0;
+	height: 100%;
+	padding: 0;
+	background-color: gray;
+}
+nav {
+	background-color: red;
+	display: flex;
+	padding: 20px;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+}
+nav a:hover {
+	background-color: gray;
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 100px;
+}
+.nav_bar {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+	margin-left: auto;
+}
+.nav_bar li {
+	margin-left: 30px;
+	font-size: 25px;
+}
+.cv {
+	font-size: 30px;
+	margin: 0;
+}
+#photo_moi {
+	float: right;
+	margin-right: 40px;
+	border: 3px solid darkred;
+	box-shadow: 2px 4px 5px black;
+}
+#main_formation {
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#main_page ul {
+	float: none;
+	text-align: left;
+	font-size: 40px;
+	margin-top: 160px;
+}
+#main_page li {
+	margin-top: 70px;
+}
+.important {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+/* scolaire */
+.scolaire {
+	border-left: 3px solid darkred;
+	width: 500px;
+	margin: auto;
+	font-size: 33px;
+	margin-top: 80px;
+	padding-left: 20px;
+}
+#titre_scolaire {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+/* pro */
+#titre_pro {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.conteneur_pro {
+	display: flex;
+}
+.pro {
+	border-top: 3px solid darkred;
+	width: 25%;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 30px;
+}
+
+/* hobby */
+#titre_hobby {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: underline;
+}
+#conteneur_hobby {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	padding: 5px;
+}
+#conteneur_hobby img {
+	border: 2px solid darkred;
+	box-shadow: 2px 4px 5px black;
+}
+#conteneur_hobby p {
+	font-size: 25px;
+}
+#jeu {
+	margin-top: 45px;
+}
+#jeu p {
+	text-align: center;
+}
+
+/* contact */
+#titre_contact {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: underline;
+}
+#conteneur_contact {
+	text-align: center;
+	margin-top: 120px;
+}
+#conteneur_contact img:hover {
+	opacity: 0.6;
+}
+#insta {
+	margin-left: 150px;
+}
+#linkedin {
+	margin-left: 150px;
+}
+#liste_contact {
+	text-align: center;
+	list-style-type: none;
+	margin-top: 70px;
+}
+#liste_contact li {
+	margin-top: 30px;
+	font-size: 25px;
+}

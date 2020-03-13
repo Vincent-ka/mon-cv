@@ -1,0 +1,117 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+nav {width: 100%;
+height: 40px;
+background: gray;
+min-height: 40x;}
+
+nav ul {list-style-type: none;
+margin: auto;
+width: 1000px;}
+
+nav ul li {display: block;
+float: left;
+width: 200px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+border-left: 1px solid white;}
+
+nav ul li:last-child {border-right: 1px solid white;}
+
+nav ul li a {color: white;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-decoration: none;
+display: block;
+transition: background .5s;}
+
+nav ul li a:hover {background: red;}
+
+
+#index {width: 100%;
+min-height: 100vh;
+background: rgb(83, 83, 212);
+padding: 40px;}
+
+#header_accueil {background: red;
+display: flex;
+justify-content: space-around;
+height: 250px;
+flex-flow: wrap row;
+padding-right: 20px;
+padding-left: 80px;}
+
+#header_accueil h1 {display: flex;
+align-items: center;
+font-size: 45px;}
+
+#header_accueil figure {display: flex;
+align-items: center;}
+
+#index li {font-size: 40px;
+margin-top: 100px;}
+
+#pro, #scolaire, #loisirs, #contact {width: 100%;
+min-height: 100vh;
+background:  rgb(83, 83, 212);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;}
+
+#pro section, #scolaire section, #loisirs section, #contact section {width: 80%;
+min-height: 400px;
+display: flex;
+justify-content: space-between;
+flex-flow: wrap row;}
+
+#pro section article, #scolaire section article {width: 33.33%;
+min-height: 400px;
+min-width: 320;;
+flex: 1;
+margin-right: 30px;
+margin-top: 10px;
+border-top: 3px solid darkred;
+border-left: 1px solid darkred;
+padding: 20px;}
+
+#loisirs section article {width: 33.33%;
+min-height: 400px;
+min-width: 320;;
+flex: 1;
+margin-right: 30px;
+padding: 20px;
+min-width: 300px;}
+
+#pro p {font-size: 30px;}
+
+#scolaire p {font-size: 40px;}
+
+#loisirs p {font-size: 25px;}
+
+#loisirs img {border: 2px solid black;
+box-shadow: 2px 2px 5px darkred;}
+
+#contact section article {width: 33.33%;
+min-height: 400px;
+min-width: 300px;
+flex: 1;
+margin-top: 100px;
+padding: 20px;}
+
+#contact section article figure {text-align: center;}
+
+#coordonnées {margin-top: -130px;}
+
+#coordonnées article {text-align: center;
+font-size: 30px;}
+
+#coordonnées p {margin-bottom: 20px;}
+
+#titre_loisir, #titre_contacts, #titre_scolaire, #titre_pro {text-align: center;
+background: rgb(83, 83, 212);
+padding-top: 20px;
+font-size: 40px;}
